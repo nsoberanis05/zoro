@@ -1,0 +1,71 @@
+/* General */
+*,::before,::after{
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+body,p,h1,.center{
+    margin: 0;
+    padding: 0;
+}
+.center{
+    text-align: center;
+}
+input{
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: 0.5em;
+}
+/* Header */
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 1rem;
+}
+nav ul{
+    margin-left: auto;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+}
+nav a {
+    text-decoration:  none;
+    color: black;
+}
+/* Form */
+.user-door{
+    display: block;
+    margin: auto;
+    border: solid 1px black;
+    width: 65vw;
+    max-width: 600px;
+    padding: 0 5rem;
+}
+.user-door h2{
+    margin-bottom:2rem;
+    margin-top: 1rem;
+}
+.user-door button{
+    display: block;
+    margin: auto;
+    border: none;
+    padding: 0.5em 1em;
+    margin-bottom: 1rem;
+}
+/* Typography */
+.or{
+    margin: 1rem 0;
+}
+.p-small{
+    font-size: 12px
+}
+/* Hover */
+.user-door button:hover{
+    color: white;
+    background-color: black;
+}
